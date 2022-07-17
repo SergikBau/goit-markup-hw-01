@@ -1,0 +1,165 @@
+body
+{
+    background: #E5E5E5;
+}
+
+
+
+/* Верхняя линия */
+.top_line
+{
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+}
+
+/* Шапка */
+.hat 
+{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
+.hat_h1
+{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 200px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+        /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.button
+{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 350px;
+    
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.text_button
+{
+    position: absolute;
+        width: 136px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
+}
+
+/* FEATURES (особенности) */
+.features
+{
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+
+.features ul {
+    display: flex;
+}
+
+
+.box_1
+{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1061px;
+}
+.box_2
+{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1061px;
+}
+.box_3
+{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1061px;
+}
+
+/* Наша команда */
+.our_team
+{
+    /* position: absolute; */
+    /* width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px; */
+}
+
+.head_our_team
+{
+    /* position: absolute; */
+    /* width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 1543px; */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.tem_card_1
+{
+    /* position: absolute; */
+    /* width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px; */
+}
